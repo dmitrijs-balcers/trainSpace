@@ -1,0 +1,15 @@
+<template name="layout">
+    {{> header}}
+    <div class="container">
+        <div class="col s12">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label for="search"><i class="mdi-action-search"></i></label>
+                    <i class="mdi-navigation-close"></i>
+                </div>
+            </form>
+        </div>
+        {{> yield}}
+    </div>
+</template>
